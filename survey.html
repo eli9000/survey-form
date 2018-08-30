@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+  crossorigin="anonymous">
+<link rel="stylesheet" href="css/main.css">
+
+
+<body>
+  <h1 id="title">How's your code mate?</h1>
+  <div class="wrapper">
+    <p id="description">This survey will determine proficiencies in various aspects of coding.</p>
+    <form id="survey-form" method="GET" action="test.php">
+      <fieldset>
+        <legend>The Survey of Legends</legend>
+        <div class="row-tab">
+          <div class="label">
+            <label id="name-label" for="name">Name: </label>
+          </div>
+          <div class="right-tab">
+            <input autofocus class="input-field" id="name" name="name" type="text" placeholder="Enter your name" />
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="label">
+            <label id="email-label" for="email">Email: </label>
+          </div>
+          <div class="right-tab">
+            <input class="input-field" id="email" name="email" type="email" placeholder="Enter your email" />
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="label">
+            <label id="number-label" for="age">Age: </label>
+          </div>
+          <div class="right-tab">
+            <input autofocus class="input-field" id="age" name="age" type="number" min="1" max="120" placeholder="What's your age?" />
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="label">
+            <label for="overall">Rate overall code skills: </label>
+          </div>
+          <div class="right-tab">
+            <select id="dropdown" name="overall" class="dropdown">
+              <option disabled value>Select a rating</option>
+              <option value="I suck">I suck</option>
+              <option value="I'm decent">I'm decent</option>
+              <option value="I'm good">I'm pretty good</option>
+              <option value="I'm great">I'm great!</option>
+              <option value="I'm rockstar">I'm a rockstar!!</option>
+            </select>
+          </div>
+        </div>
+        <div id="design" class="row-tab">
+          <div class="label">
+            <label for="design">Rate your design skills: </label>
+          </div>
+          <div class="right-tab">
+            <ul class="rad">
+              <li class="radio">
+                <label>
+                  <input name="design" value="Haggard" type="radio"> Haggard AF
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  <input name="design" value="Stick Figures" type="radio"> Do stick figures count?
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  <input name="design" value="Ok, I guess" type="radio"> Ok, I guess...
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  <input name="design" value="Call me Leo" type="radio"> Call me Leonardo DeVinci
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="know" class="row-tab">
+          <div class="label">
+            <label for="language">Select what you know: </label>
+          </div>
+          <div class="right-tab">
+            <ul class="rad">
+              <li class="check">
+                <input type="checkbox" name="language" value="React"> React JS
+              </li>
+              <li class="check">
+                <input type="checkbox" name="language" value="Node"> Node.js
+              </li>
+              <li class="check">
+                <input type="checkbox" name="language" value="Python"> Python
+              </li>
+              <li class="check">
+                <input type="checkbox" name="language" value="GO"> Go Lang
+              </li>
+              <li class="check">
+                <input type="checkbox" name="language" value="WordPress"> WordPress
+              </li>
+              <li class="check">
+                <input type="checkbox" name="language" value="GraphQL"> GraphQL
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="label">
+            <label for="other">Anything else? </label>
+          </div>
+          <div class="right-tab">
+            <textarea id="other" name="other" style="height:100px; width:80%;" placeholder="Tell us what else you know!"></textarea>
+          </div>
+        </div>
+        <p id="thanks">Thank you for taking the Survey of Legends!<br> Please submit your answers...
+        </p>
+        <button id="submit" type="submit">SUBMIT</button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>

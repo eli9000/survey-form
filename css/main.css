@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+}
+
+#description {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+}
+
+fieldset {
+  background: #ddd;
+  width: 80%;
+  margin: 0 auto;
+}
+
+legend {
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.row-tab {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+#design {
+  margin-bottom: 0;
+}
+
+#know {
+  margin-top: 0;
+}
+
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px 10px 0 0;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.label > label {
+  font-weight: bold;
+}
+
+.right-tab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #eee;
+}
+
+.dropdown {
+  height: 28px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rad {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+textarea {
+  background: #eee;
+  cursor: text;
+  border-width: 2px;
+  border-style: inset;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 200px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: #eee;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background: lightgreen;
+  box-shadow: 4px 4px 10px #999;
+}
+
+#thanks {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
