@@ -1,9 +1,13 @@
-# Forms and PHP
+![FreeCodeCamp](https://design-style-guide.freecodecamp.org/downloads/freeCodeCamp-alternative.png)
 
-## ![FreeCodeCamp][image]
+# Responsive Web Design Project
 
-`This is a project for responsive design`
+## Build a Survey Form
 
-#### Check out the live page [HERE](https://thiswillbeupdatedsoon.com)
+Project guildlines described [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form).
 
-[image]: https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg
+Check out the codepen [HERE](https://codepen.io/eli9000/pen/KBNxXb)
+
+Visit my [FreeCodeCamp Profile Page](https://www.freecodecamp.org/eli9000) to see more!
+
+`Thanks for looking!`
